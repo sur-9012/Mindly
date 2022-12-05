@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Material3.Light"
+    tools:context=".solution_page">
+
+
+        <TextView
+            android:id="@+id/subjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject 1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.113"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.039" />
+
+        <TextView
+            android:id="@+id/level"
+            android:layout_width="162dp"
+            android:layout_height="33dp"
+            android:text="EASY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.087" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="23dp"
+            android:background="@drawable/textview_folder5"
+            android:gravity="left"
+            android:text="SOLUTIONS"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.21" />
+
+        <TextView
+            android:id="@+id/quesNo"
+            android:layout_width="288dp"
+            android:layout_height="95dp"
+            android:background="@drawable/textview_folder4"
+            android:gravity="left"
+            android:text="QUESTION 1:"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.313" />
+
+        <TextView
+            android:id="@+id/optA"
+            android:layout_width="72dp"
+            android:layout_height="20dp"
+            android:background="@drawable/textview_folder2"
+            android:gravity="center"
+            android:text="A"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/optB"
+            android:layout_width="72dp"
+            android:layout_height="20dp"
+            android:background="@drawable/textview_folder2"
+            android:gravity="center"
+            android:text="B"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.544" />
+
+        <TextView
+            android:id="@+id/optC"
+            android:layout_width="72dp"
+            android:layout_height="20dp"
+            android:background="@drawable/textview_folder3"
+            android:gravity="center"
+            android:text="C"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.586" />
+
+        <TextView
+            android:id="@+id/corAns"
+            android:layout_width="184dp"
+            android:layout_height="23dp"
+            android:background="@drawable/textview_folder2"
+            android:gravity="center"
+            android:text="Your Answer is C"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.635" />
+
+        <TextView
+            android:id="@+id/optD"
+            android:layout_width="74dp"
+            android:layout_height="23dp"
+            android:background="@drawable/textview_folder"
+            android:gravity="center"
+            android:text="D"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.692" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

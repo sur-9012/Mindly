@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ap_lab/app/app/src/main/res/drawable/editstyle.xml" value="0.1465" />
+        <entry key="..\:/ap_lab/app/app/src/main/res/layout/activity_analytics_page.xml" value="0.25" />
+        <entry key="..\:/ap_lab/app/app/src/main/res/layout/activity_home_page.xml" value="0.264" />
+        <entry key="..\:/ap_lab/app/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ap_lab/app/app/src/main/res/layout/activity_registration.xml" value="0.2125" />
+        <entry key="..\:/ap_lab/app/app/src/main/res/layout/activity_splash.xml" value="0.18703703703703703" />
+        <entry key="..\:/ap_lab/app/app/src/main/res/layout/activity_test_page_math.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_analytics_page.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_eng_easy.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_eng_hard.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_eng_medium.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_gk_easy.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_gk_hard.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_gk_medium.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_logical_easy.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_logical_hard.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_logical_medium.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_math_easy.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_math_hard.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_question_math_medium.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_test_page.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_test_page_gk.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_test_page_logical.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_test_page_math.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/review_panel_layout.xml" value="0.2578125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

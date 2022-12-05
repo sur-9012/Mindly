@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.miniproject">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MiniProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".question_gk_hard"
+            android:exported="false" />
+        <activity
+            android:name=".question_gk_medium"
+            android:exported="false" />
+        <activity
+            android:name=".question_gk_easy"
+            android:exported="false" />
+        <activity
+            android:name=".question_eng_hard"
+            android:exported="false" />
+        <activity
+            android:name=".question_eng_medium"
+            android:exported="false" />
+        <activity
+            android:name=".question_eng_easy"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".question_logical_hard"
+            android:exported="false" />
+        <activity
+            android:name=".question_logical_medium"
+            android:exported="false" />
+        <activity
+            android:name=".question_logical_easy"
+            android:exported="false" />
+        <activity
+            android:name=".question_math_hard"
+            android:exported="false" />
+        <activity
+            android:name=".question_math_medium"
+            android:exported="false" />
+        <activity
+            android:name=".question_math_easy"
+            android:exported="false" />
+        <activity
+            android:name=".test_page_gk"
+            android:exported="false" />
+        <activity
+            android:name=".test_page_logical"
+            android:exported="false" />
+        <activity
+            android:name=".test_page_math"
+            android:exported="false" />
+        <activity
+            android:name=".home_page"
+            android:exported="false" />
+        <activity
+            android:name=".analytics_page"
+            android:exported="false" />
+        <activity
+            android:name=".profile_page"
+            android:exported="false" />
+        <activity
+            android:name=".solution_page"
+            android:exported="false" />
+        <activity
+            android:name=".test_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

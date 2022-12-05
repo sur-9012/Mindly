@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_account_box_24"
+                android:title="My Account">
+
+            </item>
+            <item android:id="@+id/rank_list"
+                android:icon="@drawable/ic_baseline_bar_chart_24"
+                android:title="Rank List"
+                >
+
+            </item>
+            <item android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_power_settings_new_24"
+                android:title="Log out">
+
+            </item>
+        </group>
+
+</menu>

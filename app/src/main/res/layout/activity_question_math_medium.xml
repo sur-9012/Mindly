@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question_math_medium"
+    android:theme="@style/Theme.Material3.Light"
+    android:background="@drawable/background"
+    android:id="@+id/main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="5dp"
+        android:padding="1dp"
+        android:orientation="horizontal"
+        android:background="@color/green"
+        android:id="@+id/topPanel">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Mathematics"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionSection"
+        app:layout_constraintTop_toBottomOf="@id/topPanel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Question"
+            android:textAlignment="center"
+            android:textSize="50sp">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/ques"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <RadioButton
+                android:id="@+id/o1"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:text="Option A"
+                android:textSize="30sp"
+
+                >
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/o2"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:text="Option B"
+                android:textSize="30sp"
+                >
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/o3"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:text="Option C"
+                android:textSize="30sp"
+                >
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/o4"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:text="Option D"
+                android:textSize="30sp"
+                >
+
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
